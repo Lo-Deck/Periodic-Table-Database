@@ -36,6 +36,15 @@ else
     echo "The element with atomic number $ATOMIC_NUMBER is $NAME ($SYMBOL). It's a $TYPE, with a mass of $ATOMIC_MASS amu. $NAME has a melting point of $MELTING_POINT celsius and a boiling point of $BOILING_POINT celsius."
   fi
 
+  # Note: Element with atomic_number 1000 (non-existent) was deleted from DB.
+
+  # Note: ALTER TABLE properties COLUMN type was deleted from DB.
+
+  # I need five commits 1
+
+  # I need five commits 2
+
+
 
   # echo $($PSQL "The element with atomic number 1 is Hydrogen (H). It's a nonmetal, with a mass of 1.008 amu. Hydrogen has a melting point of -259.1 celsius and a boiling point of -252.9 celsius.")
   
